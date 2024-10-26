@@ -15,11 +15,10 @@ void displayAccounts(const vector <BankAccount> &accounts) {
 
 int main() {
 	vector <BankAccount> accounts = {
-		{"Сiрожа Галапуп", 5000.0 },
-		{ "Галя Ченькова", 3453.0 },
-		{ "Коля Стьопашин", 7865.0 },
-		{ "Iван Жандар", 12000.0},
-		{ "Катроль", 2563.0 }
+		{"Андрій", 5000.0 },
+		{ "Юра", 7865.0 },
+		{ "Iван", 12000.0},
+		{ "Коля", 2563.0 }
 	};
 
 	displayAccounts(accounts);
