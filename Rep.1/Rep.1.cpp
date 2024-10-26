@@ -9,7 +9,7 @@ struct BankAccoun {
 
 int main() {
 	setlocale(0, ".1251");
-	BankAccoun myAccount = { " Галапуп Сiрожа", 5000.0};
+	BankAccoun myAccount = { " Андрій", 5000.0};
 	cout << "Власник: " << myAccount.owner <<", Баланс: " << myAccount.balance << endl;
 	return 0;
 }
