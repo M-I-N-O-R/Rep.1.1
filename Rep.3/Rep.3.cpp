@@ -16,7 +16,7 @@ void withdraw(double* balance, double amount) {
 }
 
 int main() {
-	BankAccount myAccount{ "Галапуп Сірожа: ", 5000.0 };
+	BankAccount myAccount{ "Андрій: ", 5000.0 };
 	
 	withdraw(&myAccount.balance, 500.0);
 	cout << "Баланс: " << myAccount.balance << endl;
